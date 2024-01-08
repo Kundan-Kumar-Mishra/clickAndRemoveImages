@@ -11,7 +11,7 @@ document.getElementById("earth").addEventListener("click",function(e) {
       e.preventDefault();
 })
 
-
+//Creating new element by Dom
 document.getElementById("earth").addEventListener("click",function() {
     const para = document.createElement("p");
     para.id = "message";
@@ -21,5 +21,3 @@ document.getElementById("earth").addEventListener("click",function() {
    
 })
 
-let y = document.getElementById("message");
-console.log(y);
